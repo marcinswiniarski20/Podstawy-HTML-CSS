@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html lang= "pl">
+<head>
+	<meta charset="utf-8"/>
+	<title>Moje hobby!</title>
+	<meta name="description" content="Przed Tobą prezentacja mojego hobby!"/>
+	<meta name="keywords" content="Hobby, zainteresowania, League of Legends, gra, gry komputerowe, Liga Legend, Esport, rywalizacja"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="author" content="Marcin Świniarski"/>
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="index.css" type="text/css" />
+	
+</head>
+<body>
+
+	<div id="container">
+		<a href="index.html" class="tilelink">
+			<div id="headline">
+				<img width="510" height="105" src="lol2.jpg" alt="logo"/>
+			</div>
+		</a>
+		<div id="menu">
+			<div class="rozwinmenu">
+				<ol>
+					<li>O grze
+					<ul>
+						<li><a href="grainfo.html"  class="tilelink">Opis gry</a></li>
+						<li><a href="galeria.html" class="tilelink">Galeria zdjęć</a></li>
+						<li><a href="http://eune.leagueoflegends.com/pl" class="tilelink" target="_blank">Strona główna</a></li>
+						<li><a href="https://signup.eune.leagueoflegends.com/pl/signup/index?realm_key=eune" class="tilelink" target="_blank">Dołącz do nas</a></li>
+					</ul>
+					</li>
+				</ol>
+			</div>
+			<a href="esport.html"  class="tilelink">
+				<div class="tile1">
+					Esport
+				</div>
+			</a>
+			<a href="moje_konto.html"  class="tilelink">
+				<div class="tile1">
+					Moje konto
+				</div>
+			</a>
+			<a href="kontakt.html"  class="tilelink">
+				<div class="tile1">
+					Kontakt
+				</div>
+			</a>
+		</div>
+		<div id="content">
+			Jeśli masz jakieś pytania bądź chcesz podzielić się ze mną swoimi sugetiami na temat strony napisz do mnie:
+			<br/><a href="mailto:marcinswiniarski20@gmail.com?subject=HiHProjekt">marcinswiniarski20@gmail.com</a><br/>
+			<form>			
+				Na koniec krótka ankieta:<br/>
+				Czy grasz w  League of Legends? <br/>
+				<label><input type="radio" name="gra" >Tak</label>
+				<br />
+				<label><input type="radio" name="gra" >Nie</label>
+				<br/>
+				Jak często grasz w League of Legends?<br/>
+				<label><input type="checkbox" name="gra2">mniej niż 1h w tygodniu</label><br/>
+				<label><input type="checkbox" name="gra2">od 2 do 4h w tygodniu</label><br/>
+				<label><input type="checkbox" name="gra2">od 5 do 8h w tygodniu</label><br/>
+				<label><input type="checkbox" name="gra2">więcej niż 8h na tydzień</label><br/>
+				Płeć: <br/>
+				<input type="text" name="plec" placeholder="Wybierz płeć" list="plcie" />
+				<datalist id="plcie">
+					<option value="K" label="kobieta"></option>
+					<option value="M" label="mężczyzna"></option>
+				</datalist><br/>
+
+				Czy zmieniłbyś coś na mojej stronie? Jeśli tak to co? <br/>
+				<textarea name="message" style="width: 240px; height: 90px"></textarea>
+				<br />
+				<input type="submit" name="message" value="Wyślij" />
+				<input type="reset" value="Wyczyść" />
+		</form>
+
+			
+		</div>
+		
+		<div id="footer">
+		źródło: http://eune.leagueoflegends.com/pl &copy; Marcin Świniarski Projekt HiH 2016 
+		</div>
+	</div>
+
+</body>
+</html>
